@@ -1,2 +1,2 @@
 # Flask
-This repository contains some practical work done while learning flask. 
+This repository includes some practical tasks performed during flask learning. 
