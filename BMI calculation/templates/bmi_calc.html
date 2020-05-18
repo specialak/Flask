@@ -1,0 +1,29 @@
+<!doctype html>
+<head>
+    <title>BMI_INDEX</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+</head>
+<body>
+    <h1>Calculation of BMI Index</h1>
+
+    <div>
+        <form class = "pure-form" method = "POST" action = "/">
+        Enter your weights(kg):<br>
+        <input type = "text" name = "weight"><br>
+        Enter your heights(cm):<br>
+        <input type = "text" name = "height"><br>
+        
+        <button class = "pure-button" type = "submit" value = "submit">Submit</button>
+        </form>
+    </div>
+    
+    <br>
+
+    <div>
+        {% if bmi %}
+        <p> your bmi is {{ bmi }}</p>
+        {% endif %}
+
+    </div>
+
+</body>
